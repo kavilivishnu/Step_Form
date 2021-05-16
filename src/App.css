@@ -2,37 +2,57 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  cursor: pointer;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid rgb(47, 61, 253);
+  transform: .3s;
+  cursor: pointer;
+  text-align: center;
+  height: 5vh;
+  width: 25%;
+  outline: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+input:focus{
+  border-color: rgb(68, 229, 250);
+  box-shadow: 0 0 16px 0 rgb(12, 12, 12);
+  cursor: pointer;
+}
+
+input:hover{
+  cursor: pointer;
+  background-color: rgb(252, 184, 176);
+  transition: 1s;
+}
+
+.select {
+  border: none;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  font-size: 15px;
+}
+
+.button {
+  border: none;
+  padding: 15px 45px 15px 45px;
+  cursor: pointer;
+  font-weight: bolder;
+  background-color: rgb(98, 206, 248);
+  color: rgb(87, 87, 87);
+  font-family: 'Farro';
+}
+
+@media all and (max-width: 768px) {
+  input {
+    width: 70%;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .button {
+    width: 35vw;
   }
 }

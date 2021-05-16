@@ -1,7 +1,8 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Nunito', 
+    'Comfortaa', 'Dancing Script', 'Farro', 'Overlock','Ubuntu', 'Quicksand'
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,4 +11,30 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+   font-family: 'Dancing Script';
+}
+
+h2 {
+  font-family: 'Nunito';
+}
+
+h5 {
+  font-family: 'Comfortaa';
+}
+
+h3 {
+  font-family: 'Nunito';
+}
+
+p {
+  font-family: 'Quicksand';
+}
+
+::placeholder {
+  font-family: "Overlock";
+  font-size: large;
+  /* text-align: center; */
 }
